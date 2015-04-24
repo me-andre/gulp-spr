@@ -4,7 +4,7 @@
   "author": "Andrew Pazniak <andrew@eyefitu.com>",
   "private": false,
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Gulp transform stream which processes js files with SPRjs",
   "dependencies": {
     "async": "^0.9.0",

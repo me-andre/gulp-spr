@@ -18,7 +18,7 @@ function gulpSpr() {
             async.map(files, function(file, cb) {
                 fs.readFile(path.join(dir, file), cb);
             }, function(err, contents) {
-                err ? self.emit('error', err) : self.push(makeVinylFile(file.path, contents));
+                err ? self.emit('error', err) : self.push(makeVinylFile(path.relative(dir, file.path), contents));
                 self.push(null);
             });
         });
