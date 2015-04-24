@@ -1,0 +1,15 @@
+{
+  "name": "gulp-spr",
+  "main": "gulp-spr.js",
+  "author": "Andrew Pazniak <andrew@eyefitu.com>",
+  "private": false,
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "A Gulp transform stream which processes js files with SPRjs",
+  "dependencies": {
+    "async": "^0.9.0",
+    "through2": "^0.6.5",
+    "vinyl": "^0.4.6",
+    "sprjs": "0.0.1"
+  }
+}
